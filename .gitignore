@@ -1,0 +1,25 @@
+# --- YOLO ve Python Özel Ayarları ---
+
+# Sanal ortamları engelle (Görseldeki klasörlerin)
+myenv/
+yoloenv/
+ai_model/yoloenv/
+ai-model/yoloenv/
+*.dll
+*.pyd
+.venv/
+venv/
+
+# Veri setini engelle (Görseldeki klasör)
+fruit_and_vegetables-1/
+datasets/
+
+# Test dosyalarını engelle (Görseldeki klasör)
+forTest/
+
+# Gereksiz önbellek dosyaları
+__pycache__/
+*.py[cod]
+
+# .vscode ayar klasörü (Kişisel ayarların olduğu için atmana gerek yok)
+.vscode/

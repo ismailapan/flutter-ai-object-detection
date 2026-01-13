@@ -1,0 +1,30 @@
+description: Ultralytics best model trained on fruit_and_vegetables-1/data.yaml
+author: Ultralytics
+date: '2025-12-15T11:49:06.717908'
+version: 8.3.234
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: apple
+  1: banana
+  2: grape
+  3: kiwi
+  4: lemon
+  5: orange
+  6: pinenapple
+  7: pomegranate
+  8: strawberry
+  9: watermelon
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
